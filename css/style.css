@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+   text-indent: 35px;
+   text-align: justify;
+   font-family: didot, serif;
+   font-size: 20px;
+   line-height: 1.4em;
+}
+
 nav {
   margin: 0 auto;
 }
