@@ -24,7 +24,6 @@ nav {
   margin: 0 auto;
 }
 nav a {
-  /* color: #000; */
   text-align: center;
   text-decoration: none;
 }
@@ -72,25 +71,6 @@ nav ul > li > ul a {
   height: 48px;
 }
 
-
-/* header {
-  text-align: center;
-  margin-top: 2.5em;
-  margin-bottom: 2em
-
-}
-
-header h1 {
-  font-weight: bold;
-  margin: 1em 0;
-} */
-
-
-/* :root {
-   font-size: 24px;
-   font-family: 'Gamja Flower', cursive;
-} */
-
 .home {
   background-image: url('../img/evolution.jpg');
   background-size: cover;
@@ -100,23 +80,6 @@ header h1 {
   background-repeat: no-repeat;
   /* background-color: rgb(213,213,213); */
 }
-
-/* a:link {
-   color: black;
-   background-color: white;
-   text-decoration: none;
- } */
-
-/* a:hover {
-   background-color: grey;
-}
-
-a:active {
-   background-color: pink;
-} */
-
-
- /* display: flex; */
 
    @media (max-width: 1000px) {
      body {
