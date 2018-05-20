@@ -5,6 +5,42 @@
 
 body {
   font-family: 'Crimson Text', serif;
+  background-image: url('../img/blur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home {
+  background-image: url('../img/evolution.jpg');
+  /* height: 2000px; */
+  background-attachment: fixed;
+  /* background-position: 0 -240px; */
+  /* background-color: rgb(213,213,213); */
+}
+
+.home header {
+  margin: auto;
+  width: 80%;
+}
+
+.logo{
+  width: 80%;
+  margin: auto;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+}
+
+.logo a img {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+}
+
+span {
+  padding-right: 8px;
 }
 
 p {
@@ -15,57 +51,11 @@ p {
    line-height: 1.4em;
 }
 
-.home header {
-  margin: auto;
-  width: 80%;
+h1 {
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-
-.home {
-  background-image: url('../img/evolution.jpg');
-  background-size: cover;
-  /* height: 2000px; */
-  background-attachment: fixed;
-  /* background-position: 0 -240px; */
-  background-repeat: no-repeat;
-  /* background-color: rgb(213,213,213); */
-}
-
-   @media (max-width: 1000px) {
-     body {
-       background-size: 120%;
-       background-position: -100px 0;
-     }
-
-     .home nav {
-       display: block;
-        text-align: center;
-        padding: 0;
-        margin: auto;
-        width: 200px;
-        font-weight:bold;
-     }
-
-     .home nav ul {
-       padding: 0;
-       margin: 0;
-       list-style: none;
-     }
-
-     .home nav ul li {
-       width: 100px;
-       height: 80px;
-       display: inline-block;
-       list-style-type: none;
-       border: .025px;
-       padding: 0
-     }
-
-     .home nav ul li a {
-       display: block;
-       line-height: 80px;
-       width: 100%;
-       height: 100%;
-       transition: 300ms;
-     }
-   }
