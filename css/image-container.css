@@ -1,0 +1,27 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 972px;
+}
+
+.image-container a {
+    justify-content: center;
+}
+
+@media (max-width: 1160px) {
+  .container {
+    width: 648px;
+  }
+  .image-container {
+    width: 648px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 324px;
+  }
+  .image-container {
+    width: 324px;
+  }
+}
